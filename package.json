@@ -15,11 +15,24 @@
   },
   "dependencies": {
     "gatsby": "^2.19.7",
+    "gatsby-plugin-offline": "^3.0.35",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sass": "^2.1.29",
+    "gatsby-plugin-typescript": "^2.2.0",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "@types/node": "^13.7.7",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "gatsby-plugin-tslint": "0.0.2",
+    "prettier": "^1.19.1",
+    "tslint": "^6.0.0",
+    "tslint-loader": "^3.5.4"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,20 @@
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-item {
+    color: darkslateblue;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+
+    &:hover {
+        color: darkorchid;
+    }
+}
+
+.active-nav-item {
+    color: purple;
+}

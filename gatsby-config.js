@@ -5,5 +5,17 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'Leamos',
+    author: 'Guillermo Hernan De Souza',
+    description: 'Tienda de libros online',
+    siteUrl: 'https://leamos.com/',
+  },
+  plugins: [
+    'gatsby-plugin-sass',
+    'gatsby-plugin-typescript',
+    'gatsby-plugin-tslint',
+    'gatsby-plugin-offline',
+    'gatsby-plugin-react-helmet',
+  ]
 }
